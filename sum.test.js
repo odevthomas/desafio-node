@@ -1,8 +1,9 @@
-// sum.test.js
-function sum(a, b) {
-  return a + b;
-}
+const sum = require('./sum');
 
-test('soma 1 + 2 deve dar 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('soma de 2 + 2 deve ser 4', () => {
+  expect(sum(2, 2)).toBe(4);
+});
+
+test('soma de números negativos', () => {
+  expect(sum(-2, -3)).toBe(-5);
 });
