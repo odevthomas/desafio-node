@@ -1,0 +1,14 @@
+Desafio 1: Configuração Básica de Build e Teste com GitHub Actions
+Introdução:
+Neste desafio, você configurará um workflow básico de CI/CD usando GitHub Actions para um projeto em Node.js. O workflow executará a construção do projeto e testes automatizados sempre que houver um push para a branch main.
+
+O que resolver:
+Crie um repositório no GitHub com um projeto Node.js simples.
+Adicione um arquivo de workflow em .github/workflows/ci.yml.
+Configure o workflow para:
+Executar em cada push para a branch main.
+Configurar o ambiente Node.js.
+Instalar dependências.
+Executar os testes automatizados.
+Resultado Esperado:
+Um workflow de GitHub Actions que executa a construção do projeto e os testes em cada push para a branch main
