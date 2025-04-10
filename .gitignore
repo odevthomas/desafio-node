@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos do sistema
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# Coverage de testes
+coverage/
+
+# lock do Git
+.git/index.lock
